@@ -22,7 +22,7 @@ import {
   Tag
 } from "lucide-react";
 import { motion } from "framer-motion";
-
+// Landing Page Component
 export default function LandingPage() {
   const { products } = useProductStore();
   const featuredProducts = products.slice(0, 4);
