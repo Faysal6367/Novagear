@@ -10,7 +10,7 @@ export type Product = {
     sellerId?: string;
     sellerName?: string;
 };
-
+// This type defines the structure of a product object in the application. It includes properties such as id, title, descriptions, price, category, image URL, creation date, and optional seller information. This type is used throughout the application to ensure consistent handling of product data.
 export type Category = "Smartphone" | "Laptop" | "Audio" | "Wearable" | "Camera" | "Accessory";
 
 export type Seller = {
