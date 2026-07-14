@@ -4,7 +4,7 @@ import Google from "next-auth/providers/google"
 import bcrypt from "bcryptjs"
 import clientPromise from "@/lib/mongodb"
 import { authConfig } from "@/auth.config"
-
+// This file configures the NextAuth authentication system for the application. It sets up authentication providers, including Google and custom credentials, and defines the authorization logic for user login. The configuration also includes session management and other authentication-related settings.
 export const { handlers, auth, signIn, signOut } = NextAuth({
     ...authConfig,
     providers: [
