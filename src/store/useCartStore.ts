@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import { Product } from "@/types";
-
+// This file defines a Zustand store for managing the shopping cart state in the application. It provides functions to add, remove, and update items in the cart, as well as to clear the cart and calculate total items and price. The cart state is persisted in local storage to maintain the cart contents across page reloads.
 export interface CartItem {
     product: Product;
     quantity: number;
