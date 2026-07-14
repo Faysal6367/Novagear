@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 import clientPromise from "@/lib/mongodb";
-
+// This function handles the POST request for user registration. It receives the user's name, email, and password from the request body, checks if the user already exists in the database, hashes the password, and then creates a new user record in the database. It returns appropriate responses based on the success or failure of these operations.
 export async function POST(req: Request) {
     try {
         const { name, email, password } = await req.json();
