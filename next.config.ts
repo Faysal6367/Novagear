@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+const nextConfig: NextConfig = { // This is the Next.js configuration file for the project. It defines various settings and options that control the behavior of the Next.js framework, including image handling, ESLint configuration, and TypeScript settings.
   images: {
     remotePatterns: [
       {
