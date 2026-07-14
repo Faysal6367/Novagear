@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Cpu, Home, ArrowLeft } from "lucide-react";
-
+// This is a custom 404 Not Found page component for the application. It displays a message indicating that the requested page was not found and provides navigation options to return to the home page or the shop page.
 export default function NotFound() {
     return (
         <div className="flex min-h-[70vh] flex-col items-center justify-center text-center px-4">
